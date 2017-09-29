@@ -1,0 +1,45 @@
+#control {
+    position:fixed;
+    left:-200px;
+    top:30px;
+    width:200px;
+    background-color:rgba(200,200,200,0.3);
+    transition:left 1.5s;
+}
+
+#bgImageBox {
+    width:70%;
+    text-align: center;
+}
+
+.bgThumbs {
+    width:70%;
+    height:auto;
+    margin:10px auto 10px 50px;
+}
+
+#open {
+    width:45px;
+    height:40px;
+    position:absolute;
+    right:-45px;
+    top:0;
+    background-color:rgba(200,200,200,0.3);
+}
+
+
+
+#openimg {
+    height:100%;
+}
+
+ /****************BACKGROUND IMAGE DIV ****************/
+#backgroundImage {
+    width:100vw;
+    height:100vh;
+    background-image:url(img/wallpaper.jpg);
+    background-size:cover;
+    position:absolute;
+    left:0;
+    top:0;
+}
